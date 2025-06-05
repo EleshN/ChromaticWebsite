@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Chromatic</title>
+    <meta name ="Reviews" content="Read and write reviews for the game Chromatic">
+    <link rel="stylesheet"
+          type="text/css"
+          href="styles/reviews.css" >
+    <!--Source: https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website-->
+    <link rel="icon" href="images/appicon_16.png">
+</head>
+
+<body onresize="chooseEvent()">
+    <picture>
+        <!-- Source: (original work) Noah Braun-->
+        <img src="images/cr_fish_fly_header.png" alt="">
+   </picture>
+   <button id="hamburger-menu" class="unclicked">
+    <img src="images/chromahamburger.png" alt="">
+    </button>
+
+    <nav id="navmenu" class="hidden">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="download.html">Download</a></li><!--TODO-->
+            <li><a href="reviews.html">Reviews</a></li><!--TODO-->
+            <li><a href="about.html">About</a></li><!--TODO-->
+            <li><a href = "https://twitter.com/Chromatic_Game">Twitter</a></li>
+        </ul>
+    </nav>
+    <h1>Chromatic: A Game About Another World.</h1>
+
+    <h2>Reviews</h2>
+    <!-- Source: (original work) Noah Braun -->
+    <!-- For all text content in this section. -->
+    <div>
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/star5.png" alt="5 Stars">
+       </picture>
+    </div>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        Chromatic is the best game I have ever played!
+    </p>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        Chromatic is a revolution of the metroidvania genre. It is the first to incorporate such well-constructed environmental themes.
+    </p>
+    <div>
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/star4.png" alt="4 Stars">
+       </picture>
+    </div>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        Chromatic is a great game and feels quite magical!
+    </p>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        I really enjoyed my time with Chromatic's demo, I loved using the bubble power and floating all around the stage! I can't wait to see what comes next.
+    </p>
+    <div>
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/star3.png" alt="3 Stars">
+       </picture>
+    </div>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        I enjoyed Chromatic, but it would have been better with more fish characters.
+    </p>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        Chromatic was an enjoyable experience, but there isn't a lot here yet. I would watch this site for future releases, but I don't think there's enough in this game right now that means you need to play it. Still, it makes for a fun 30 minutes!
+    </p>
+    <div>
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/star2.png" alt="2 Stars">
+       </picture>
+    </div>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        Chromatic is not finished yet and it shows.
+    </p>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        I have played too many other games like this. There is some fun stuff here but it doesn't break out of the mold of pixel art indie platformer.
+    </p>
+    <div>
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/star1.png" alt="1 Star">
+       </picture>
+    </div>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        How do I buy bread from Walmart google.
+    </p>
+    <p>
+        <!-- Source: (original work) Noah Braun -->
+        If you are like me and hate the color blue, this game is really not going to be your thing.
+    </p>
+    <p>
+        To leave a review, email chromaticdeveloper@gmail.com with the subject line "Review." Thanks so much for playing!
+    </p>
+
+    <div class = "footer">
+        <button class = "social" id="social-button">Get Connected!</button>
+        </div>
+
+       <div id = "modalbg" class = "background hidden">
+        <div class = "modal vertical">
+            <button id="close-button" class="unclicked">
+                <img src="images/chromaclose.png" alt="">
+            </button>
+            <div class = "horizontal">
+                <a href="https://twitter.com/Chromatic_Game"><img src="images/chromax.png" alt="x link">Twitter</a>
+                <a href="https://chromaticdev.itch.io/chromatic-pre-demo"><img src="images/chromaitch.png" alt="itch.io link">Itch.IO</a>
+            </div>
+
+            <div class = "horizontal">
+                <a href="https://discord.com/users/224669420411289600"><img src="images/chromadiscord.png" alt="discord link">Discord</a>
+                <a href="mailto:chromaticdeveloper@gmail.com"><img src="images/chromaemail.png" alt="itch.io link">Email Me</a>
+                <!--https://www.tutorialspoint.com/html/html_email_links.htm-->
+            </div>
+        </div>
+        </div>
+
+        <picture>
+            <!-- Source: (original work) Noah Braun-->
+            <img src="images/chroma-footer.png" alt="">
+        </picture>
+
+        <script src="scripts/jquery-3.7.1.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/socialbutton.js"></script>
+        <script src="scripts/closebutton.js"></script>
+        <script src="scripts/resizeevent.js"></script>
+</body>
+</html>
