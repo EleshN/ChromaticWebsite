@@ -14,4 +14,5 @@
 </nav>
 </header>
 
-<h1>Chromatic: A Game About Another World.</h1>
+<img src="images/title_two.png" alt="" class="title">
+<h1>A Game About Another World.</h1>
