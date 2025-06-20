@@ -10,8 +10,16 @@
 </head>
 
 
-<body onresize="chooseEvent()">
-   <div id="header"></div>
+<body onload="chooseEvent()" onresize="chooseEvent()">
+    <div id="background-container">
+        <div id="background-scroll">
+          <div class="background-top"></div>
+          <!-- Walls dynamically added here -->
+          <div id="background-gradient"></div>
+        </div>
+    </div>
+
+    <?php include('partials/header.php'); ?>
 
     <h2>About</h2>
     <div class="about">
@@ -120,14 +128,15 @@
     </div>
 
     <p>Available now for download on Mac, and Windows!</p>
-    <div id="footer"></div>
-    <div id="modal"></div>
+
+    <?php include('partials/footer.php'); ?>
+    <?php include('partials/modal.php'); ?>
 
     <script src="scripts/jquery-3.7.1.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/socialbutton.js"></script>
     <script src="scripts/closebutton.js"></script>
     <script src="scripts/resizeevent.js"></script>
-    <script src="scripts/includes.js"></script>
+    <script src="scripts/socialbutton.js"></script>
+    <script src="scripts/fillbackgroundwalls.js"></script>
 </body>
 </html>

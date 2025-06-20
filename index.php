@@ -22,9 +22,9 @@ $nav_cit_class = '';
           <!-- Walls dynamically added here -->
           <div id="background-gradient"></div>
         </div>
-      </div>
+    </div>
 
-      <?php include('partials/header.php'); ?>
+    <?php include('partials/header.php'); ?>
 
     <h2>Welcome to the world of Chromatic!</h2>
     <figure>

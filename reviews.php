@@ -1,3 +1,8 @@
+<?php
+$page_title = 'Home';
+$nav_home_class = 'active_page';
+$nav_cit_class = '';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +14,16 @@
     <link rel="icon" href="images/appicon_16.png">
 </head>
 
-<body onresize="chooseEvent()">
-    <div id="header"></div>
+<body onload="chooseEvent()" onresize="chooseEvent()">
+    <div id="background-container">
+        <div id="background-scroll">
+          <div class="background-top"></div>
+          <!-- Walls dynamically added here -->
+          <div id="background-gradient"></div>
+        </div>
+    </div>
+
+    <?php include('partials/header.php'); ?>
 
     <h2>Reviews</h2>
     <!-- Source: (original work) Noah Braun -->
@@ -89,14 +102,14 @@
         To leave a review, email chromaticdeveloper@gmail.com with the subject line "Review." Thanks so much for playing!
     </p>
 
-    <div id="footer"></div>
-    <div id="modal"></div>
+    <?php include('partials/footer.php'); ?>
+    <?php include('partials/modal.php'); ?>
 
     <script src="scripts/jquery-3.7.1.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/socialbutton.js"></script>
     <script src="scripts/closebutton.js"></script>
     <script src="scripts/resizeevent.js"></script>
-    <script src="scripts/includes.js"></script>
+    <script src="scripts/socialbutton.js"></script>
+    <script src="scripts/fillbackgroundwalls.js"></script>
 </body>
 </html>
