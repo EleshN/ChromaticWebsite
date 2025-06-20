@@ -1,72 +1,8 @@
-body {
-    background-color: #000000;
-    position: relative;
-}
-
 p {
     text-align: center;
     color: #000000;
     background-color: #00e5ff;
     padding: 5px;
-}
-
-h1 {
-    /*Source: https://www.w3schools.com/css/css3_borders.asp*/
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-    min-width: 400px;
-    padding: 10px;
-    color: #000000;
-    background-color: #00e5ff;
-    text-align: center;
-    font-size: xx-large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2 {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    max-width: 250px;
-    min-width: 100px;
-    margin-top: 10px;
-    padding: 5px;
-    color: #000000;
-    background-color: #00e5ff;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-nav ul li {
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    max-width: 800px;
-    min-width: 400px;
-    margin-top: 5px;
-    padding: 5px;
-    color: #000000;
-    background-color: #00e5ff;
-    text-align: center;
-    font-size: large;
-    font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-ul {
-    /*Removes left indent of menu*/
-    /*Source: https://stackoverflow.com/questions/9620594/removing-ul-indentation-with-css*/
-    padding: 0;
-    list-style-type: none;
-}
-
-a {
-    color: #000000;
-    background-color: #00e5ff;
 }
 
 div figure.right {
@@ -83,7 +19,7 @@ div figure.left {
     text-align: left;
 }
 
-div {
+div.about {
     width: 800px;
     max-width: 800px;
     min-width: 400px;
@@ -99,7 +35,7 @@ div {
     overflow:auto;
 }
 
-div div {
+div.about div {
     max-width: 780px;
     min-width: 400px;
 }
@@ -123,7 +59,7 @@ figure img {
 
 }
 
-picture:nth-of-type(2) {
+picture.about:nth-of-type(2) {
     display: block;
     max-width: 200px;
     min-width: 100px;
@@ -133,7 +69,7 @@ picture:nth-of-type(2) {
     height: auto;
 }
 
-picture {
+picture.about {
     display: block;
     max-width: 800px;
     min-width: 400px;
@@ -154,156 +90,4 @@ p.left {
 p.bio {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-}
-
-/*New stuff for interactivity*/
-button {
-    min-width: 128px;
-    background-color: #000000;
-}
-/*modal*/
-/*With guidance from: https://www.w3schools.com/howto/howto_css_modals.asp*/
-div.modal {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: #00e5ff;
-    background-color: #00e5ff;
-    border-radius: 25px;
-    min-width: 400px;
-    z-index: 2;
-    position: fixed;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    width: auto;
-    /* left: 33%;
-    top: 20%; */
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0px;
-    /*Source: https://stackoverflow.com/questions/3157372/css-horizontal-centering-of-a-fixed-div*/
-    margin-top: 0px;
-}
-div.modal button {
-    min-width: 128px;
-    max-width: 256px;
-    align-self: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
-div.modal a {
-    margin: 5px;
-    min-width: 128px;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    color: #000000;
-    background-color: #00e5ff;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-div.modal div{
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-}
-div.modal button img {
-    align-self: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px;
-}
-
-div.background {
-    max-width: none;
-    max-height: none;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    overflow: auto;
-    left: 0;
-    top: 0;
-    position: absolute;
-    align-items: center;
-    border: none;
-    align-items: center;
-}
-
-/*Button to enable social modal*/
-button.social {
-    color:#000000;
-    background-color: #00e5ff;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    height: 50px;
-    font-size: large;
-    font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-width: 200px;
-    transform-origin: center;
-    position: static;
-}
-
-div.footer {
-    text-align: center;
-    background-color: #000000;
-    position: static;
-}
-
-/*At the bottom to override*/
-.hidden {
-    display: none;
-  }
-
-@media (min-width: 715px){
-    header {
-        display: flex;
-        flex-direction: row;
-        height: 100px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: row;
-        flex-basis: 100%;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: row;
-        flex-basis: 100%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    nav ul li {
-        min-width: 0px;
-        display: flex;
-        flex-basis: 100%;
-        float: left;
-        text-align: center;
-    }
-
-    nav ul a {
-        align-self: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: x-large;
-    }
 }

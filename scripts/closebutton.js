@@ -1,5 +1,8 @@
-$('#close-button').click(function() {
+$(document).ready(function () {
+  console.log("closebutton.js loaded and ready");
+  $(document).on('click', '#close-button', function () {
+    console.log("PAPAPIO");
     var socials = document.getElementById('modalbg');
     socials.classList.add('hidden');
-  })
-/*With guidance from: https://www.w3schools.com/howto/howto_css_modals.asp*/
+  });
+});
