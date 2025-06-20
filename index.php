@@ -59,12 +59,11 @@ $nav_cit_class = '';
     <?php include('partials/modal.php'); ?>
     <div id="modal"></div>
 
-<script src="scripts/jquery-3.7.1.js"></script>
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/closebutton.js"></script>
-<script src="scripts/resizeevent.js"></script>
-<script src="scripts/includes.js"></script>
-<script src="scripts/socialbutton.js"></script>
-<script src="scripts/fillbackgroundwalls.js"></script>
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/closebutton.js"></script>
+    <script src="scripts/resizeevent.js"></script>
+    <script src="scripts/socialbutton.js"></script>
+    <script src="scripts/fillbackgroundwalls.js"></script>
 </body>
 </html>
