@@ -31,7 +31,7 @@ div.about {
     color: #000000;
     background-color: #00e5ff;
     font-size: medium;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Dramatic', sans-serif;
     overflow:auto;
 }
 
@@ -79,6 +79,13 @@ picture.about {
     height: auto;
 }
 
+picture.about img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p.right {
     text-align: right;
 }
@@ -88,6 +95,7 @@ p.left {
 }
 
 p.bio {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Paragraph', sans-serif;
     font-weight: 600;
+    font-size: 20px;
 }

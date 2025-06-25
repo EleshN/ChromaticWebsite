@@ -13,7 +13,7 @@ h1 {
     color: #000000;
     text-align: center;
     font-size: 2vw;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Dramatic', sans-serif;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
     text-align: center;
     font-size: xx-large;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Dramatic', sans-serif;
 }
 
 nav ul li {
@@ -40,12 +40,14 @@ nav ul li {
     min-width: 400px;
     margin-top: 5px;
     padding: 5px;
-    color: #000000;
-    background-color: #00e5ff;
+    color: #00e5ff;
+    background-color: #000000;
+    border: 2px solid #00e5ff;
+    box-sizing: border-box;
     text-align: center;
-    font-size: large;
+    font-size: 30px;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Paragraph', sans-serif;
 }
 
 ul {
@@ -55,8 +57,8 @@ ul {
     list-style-type: none;
 }
 
-li a {
-    color: #000000;
+nav ul li a {
+    color: #00e5ff;
 }
 
 p {
@@ -72,7 +74,7 @@ p {
     text-align: center;
     font-size: large;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Paragraph', sans-serif;
 }
 
 div a {
@@ -87,7 +89,7 @@ div a {
     text-align: center;
     font-size: xx-large;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Paragraph', sans-serif;
 }
 
 img.title {
@@ -254,7 +256,7 @@ button.social {
     height: 50px;
     font-size: large;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dramatic', sans-serif;
     min-width: 200px;
     transform-origin: center;
     position: static;
@@ -272,10 +274,29 @@ picture.footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    min-width: 400px;
+}
+
+picture.plants {
     width: 100%;
     height: auto;
+    max-width: none;
+}
+
+picture.plants img {
+    width: 100vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+picture.voidmite img {
+    margin-top: 20px;
+    width: 10vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*At the bottom to override*/
@@ -287,7 +308,7 @@ picture.footer {
     header {
         display: flex;
         flex-direction: row;
-        height: 100px;
+        height: 54px;
     }
 
     nav {
@@ -321,3 +342,18 @@ picture.footer {
         font-size: x-large;
     }
 }
+
+/* Fonts */
+@font-face {
+    font-family: 'Dramatic';
+    src:  url('/fonts/yoster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paragraph';
+    src:  url('/fonts/MedodicaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  

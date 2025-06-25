@@ -13,7 +13,7 @@ figure {
     text-align: center;
     font-size: large;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Dramatic', sans-serif;
 }
 
 figcaption {
@@ -45,4 +45,8 @@ picture {
     min-width: 400px;
     width: 100%;
     height: auto;
+}
+
+p.blurb {
+    font-size: 27px;
 }

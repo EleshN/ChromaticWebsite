@@ -3,8 +3,12 @@
     <button class = "social" id="social-button">Get Connected!</button>
 </div>
 
-<picture class="footer">
+<picture class="footer voidmite">
+    <img src="images/voidmite_idle.gif" alt="">
+</picture>
+
+<picture class="footer plants">
     <!-- Source: (original work) Noah Braun-->
-    <img src="images/chroma-footer.png" alt="">
+    <img src="images/footer_double.png" alt="">
 </picture>
 

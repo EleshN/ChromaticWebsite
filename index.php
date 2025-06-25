@@ -27,6 +27,15 @@ $nav_cit_class = '';
     <?php include('partials/header.php'); ?>
 
     <h2>Welcome to the world of Chromatic!</h2>
+
+    <p class="blurb">
+        Journey into the world of Chromatic - and become a part of it. 
+        Run, jump, and fight your way through cramped caverns and across breathtaking vistas alike. 
+        As you explore, you will discover mysterious artifacts, perplexing creatures, hidden passages, and everything in between. 
+        Will the friends and foes you meet along the way guide you to the heart of the world to unearth its origin? 
+        There’s only one way to find out: unlock new abilities and powers to traverse the world in new ways, and uncover all there is to find in Chromatic. 
+    </p>
+
     <figure>
         <!-- Source: (original work) Noah Braun -->
         <img src="images/entrygif.gif" alt="" >

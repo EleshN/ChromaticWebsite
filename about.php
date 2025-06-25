@@ -122,12 +122,14 @@
     <div class="about">
     <p class = "bio">
         <!-- Source: (original work) Noah Braun -->
-        Chromatic is developed solely by Noah Braun using the Unity engine. It has been in development for about 15 months. To contact him, you can reach out to chromaticdeveloper@gmail.com, or message one of the game's social media accounts.
-        <br>Noah is currently studying Computer Science and Information Science at Cornell University, and develops the game in between studying for his classes. He is 21 and from Washington, DC.
+        Chromatic is developed solely by Noah Braun using the Unity engine. Noah has been developing the game outside of work and school since 2022, with chapter one releasing in December of 2024. 
+        <br>The game features music by Alex Yore and some writing by Rudy Beer.
+        <br>Seeing that Chromatic is a side project, there is currently no planned release date for the whole game, though it is continuously being worked on fervently, and progress is only getting faster.
+        <br>Noah is originally from Washington, D.C., and graduated Cornell University in May of 2024.
     </p>
     </div>
 
-    <p>Available now for download on Mac, and Windows!</p>
+    <p><i>Chromatic: Chapter One</i> is available now for download on Mac and Windows!</p>
 
     <?php include('partials/footer.php'); ?>
     <?php include('partials/modal.php'); ?>
