@@ -25,20 +25,20 @@ $nav_cit_class = '';
 
     <?php include('partials/header.php'); ?>
 
-    <p>
+    <p class = "standard">
         <!-- Source: (original work) Noah Braun -->
         Ready to delve into the world of Chromatic? Download now for Mac and Windows!
-        <a href="https://chromaticdev.itch.io/chromatic-pre-demo">Click Here To Go To The Download Page.</a>
+        <a class = "standard" href="https://chromaticdev.itch.io/chromatic-pre-demo">Click Here To Go To The Download Page.</a>
     </p>
 
     <div class="download">
     <!-- Source: (original work) Noah Braun-->
-    <a href="https://chromaticdev.itch.io/chromatic-pre-demo" target="_blank">
+    <a class = "standard" href="https://chromaticdev.itch.io/chromatic-pre-demo" target="_blank">
         <img src="images/download.gif" alt="Download Chromatic Demo">
       </a>
     </div>
 
-    <p>
+    <p class = "standard">
     Be sure to let me know what you think by <a href="reviews.html">Writing a Review!</a>
     </p>
 

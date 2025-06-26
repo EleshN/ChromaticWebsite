@@ -28,7 +28,7 @@ $nav_cit_class = '';
 
     <h2>Welcome to the world of Chromatic!</h2>
 
-    <p class="blurb">
+    <p class="blurb standard">
         Journey into the world of Chromatic - and become a part of it. 
         Run, jump, and fight your way through cramped caverns and across breathtaking vistas alike. 
         As you explore, you will discover mysterious artifacts, perplexing creatures, hidden passages, and everything in between. 
@@ -62,7 +62,7 @@ $nav_cit_class = '';
         <figcaption>Discover tiny secrets and massive landscapes alike.</figcaption>
     </figure>
 
-    <p>Available now for download on Mac and Windows!</p>
+    <p class = "standard">Available now for download on Mac and Windows!</p>
 
     <?php include('partials/footer.php'); ?>
     <?php include('partials/modal.php'); ?>

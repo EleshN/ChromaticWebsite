@@ -1,5 +1,5 @@
 <div class = "footer">
-    <a href="download.html">Download Now!</a>
+    <a class = "standard" href="download.html">Download Now!</a>
     <button class = "social" id="social-button">Get Connected!</button>
 </div>
 

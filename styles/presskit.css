@@ -1,0 +1,117 @@
+/* Shared styling to center the content horizontally */
+.presskit-horizontal,
+.presskit-vertical {
+  width: 90%;
+  margin: 10px auto; /* center horizontally */
+  background-color: #00e5ff99;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/* Arrange children horizontally */
+.presskit-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       /* center children */
+    align-items: center;
+    overflow: visible;             /* allow overflow */
+    position: relative;            /* for safe centering context */
+}
+
+/* Arrange children vertically */
+.presskit-vertical {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Proportions within the horizontal container */
+.presskit-left {
+  flex: 0 0 25%;
+}
+
+.presskit-right {
+  flex: 0 0 70%;
+  margin-left: 3%;
+}
+
+ul.presskit {
+    display: block;
+    padding-left: 1.5em;
+    list-style-type: disc;
+    margin-bottom: 5%;
+}
+
+ul.presskit li {
+    display: list-item;
+    font-family:'Paragraph', sans-serif;
+    font-size: 20px;
+}
+  
+.presskit-horizontal img {
+    width: 60%;
+    padding: 10px 5%;
+    box-sizing: border-box;
+}
+
+img.capsule {
+    width:100vw;
+    height:auto;
+}
+  
+p {
+    font-family:'Paragraph', sans-serif;
+    font-size: 20px;
+}
+  
+
+.outlined {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.side-margins {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.large-font {
+    font-size: 50px;
+}
+
+h3 {
+    font-family:'Dramatic', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.button a {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: white;
+    margin-left: 2%;
+    display: inline-block;
+    padding: 6px 12px; /* top/bottom: 6px, left/right: 12px */
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  /* At bottom to override */
+.nobg {
+    background-color: transparent;
+}
+
+.download-link .downloadpresskit-2 {
+    color: black;
+    font-family:'Dramatic', sans-serif;
+    font-size: 30px;
+    margin-left: 1%;
+}
+
+.download-link .downloadpresskit-1 img {
+    height: 50px;
+    width: auto;
+    padding: 0;
+    box-sizing: content-box; /* this is the default */
+}
