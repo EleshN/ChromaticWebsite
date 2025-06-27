@@ -1,6 +1,6 @@
 <div id = "footer" class = "footer">
-    <a class = "standard" href="download.html">Download Now!</a>
-    <button class = "social" id="social-button">Contact / Socials</button>
+    <a class = "standard" href="download.php">Download Now!</a>
+    <button class = "social" id="social-button">Get Connected!</button>
 </div>
 
 <picture class="footer voidmite">

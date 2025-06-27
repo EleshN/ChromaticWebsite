@@ -32,81 +32,16 @@
         </p>
     </div>
 
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-intro.gif">
+    <div class = "about horizontal">
+        <img src = "images/voidmite_idle.gif" alt = "">
         <p>
-            Enter the world of <i>Chromatic!</i>
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-jump.png">
-        <p>
-            Fall into tight and refreshing 2D platforming and combat.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-bubbleatk.png">
-        <img src = "images/screenshots/chromatic-ch1-bubblemov.png">
-        <p>
-            Find creative uses for unique and exciting special abilities.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-scene.png">
-        <p>
-            Explore lush, hand-pixeled environments.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-fight.png">
-        <p>
-            Face bizarre and mysterious foes.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-journal.png">
-        <p>
-            Catalog the creatures you find, and build your own bestiary.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-secret.png">
-        <p>
-            Discover collectables and secrets.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-equipment.png">
-        <p>
-            Unlock upgrades and customize your play style.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-friend.png">
-        <p>
-            Meet friends.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-foe.png">
-        <p>
-            Meet foes.
-        </p>
-    </div>
-
-    <div class="about">
-        <img src = "images/screenshots/chromatic-ch1-power.png">
-        <p>
-            Traverse the world in new ways.
+            <span class="bigger-paragraph"><b>Chromatic: Chapter One is out now!</b></span>
+            <br>The full game of Chromatic has no planned release date. 
+            This is because it is currently being worked on part-time, and is still in the relatively early stages of development.
+            There are some future updates / demos planned beyond chapter one, but seeing as Chromatic is a non-linear game where many challenges can be attempted in branching order, it will not be releasing chapter-by-chapter.
+            <br><br>
+            To stay updated with Chromatic's development, follow the devlog <a href = "TODO" target="_blank">here</a> or follow the game's <a href = "socialscontact.php">social media profiles here!</a>
+            <br>For more detailed information about Chromatic, take a look at our <a href = "presskit.php">press kit</a>.
         </p>
     </div>
 
@@ -121,9 +56,8 @@
     <p class = "bio standard">
         <!-- Source: (original work) Noah Braun -->
         Chromatic is developed solely by Noah Braun (Age 23) using the Unity engine. Noah has been developing the game outside of work and school since 2022, with chapter one releasing in December of 2024. 
-        <br>The game features music by Alex Yore and some writing by Rudy Beer.
-        <br>Given that Chromatic is a side project, there is currently no planned release date for the whole game, though it is continuously being worked on fervently, and progress is only getting faster.
         <br>Noah is originally from Washington, D.C., and graduated Cornell University in May of 2024.
+        <br>Chromatic features music by Alex Yore and some writing by Rudy Beer, both of whom Noah met at Cornell.
     </p>
     </div>
 

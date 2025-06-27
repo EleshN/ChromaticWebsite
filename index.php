@@ -36,31 +36,83 @@ $nav_cit_class = '';
         There’s only one way to find out: unlock new abilities and powers to traverse the world in new ways, and uncover all there is to find in Chromatic. 
     </p>
 
-    <figure>
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/entrygif.gif" alt="" >
-        <figcaption>Journey into alien worlds and adapt their styles to survive.</figcaption>
-    </figure>
-    <figure>
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/bossfight.gif" alt="" >
-        <figcaption>Challenge great foes.</figcaption>
-    </figure>
-    <figure>
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/menugif.gif" alt="" >
-        <figcaption>Customize your playstyle.</figcaption>
-    </figure>
-    <figure>
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/npcgif.gif" alt="" >
-        <figcaption>Meet other travelers.</figcaption>
-    </figure>
-    <figure>
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/vista.png" alt="" >
-        <figcaption>Discover tiny secrets and massive landscapes alike.</figcaption>
-    </figure>
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-intro.gif">
+        <p>
+            Enter the world of <i>Chromatic!</i>
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-jump.png">
+        <p>
+            Fall into tight and refreshing 2D platforming and combat.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-bubbleatk.png">
+        <img src = "images/screenshots/chromatic-ch1-bubblemov.png">
+        <p>
+            Find creative uses for unique and exciting special abilities.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-scene.png">
+        <p>
+            Explore lush, hand-pixeled environments.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-fight.png">
+        <p>
+            Face bizarre and mysterious foes.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-journal.png">
+        <p>
+            Catalog the creatures you find, and build your own bestiary.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-secret.png">
+        <p>
+            Discover collectables and secrets.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-equipment.png">
+        <p>
+            Unlock upgrades and customize your play style.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-friend.png">
+        <p>
+            Meet friends.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-foe.png">
+        <p>
+            Meet foes.
+        </p>
+    </div>
+
+    <div class="index">
+        <img src = "images/screenshots/chromatic-ch1-power.png">
+        <p>
+            Traverse the world in new ways.
+        </p>
+    </div>
 
     <p class = "standard">Available now for download on Mac and Windows!</p>
 

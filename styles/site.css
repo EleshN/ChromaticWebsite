@@ -308,7 +308,7 @@ picture.voidmite img {
     header {
         display: flex;
         flex-direction: row;
-        height: 54px;
+        height: 75px;
     }
 
     nav {
@@ -339,7 +339,7 @@ picture.voidmite img {
         align-self: center;
         margin-left: auto;
         margin-right: auto;
-        font-size: x-large;
+        font-size: 30px;
     }
 }
 

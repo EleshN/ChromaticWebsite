@@ -1,5 +1,5 @@
 div.about {
-    width: 90%;
+    width: 80%;
     margin: 5% auto; /* center horizontally */
     background-color: #00e5ff99;
     border-radius: 25px;
@@ -46,5 +46,26 @@ picture.about img {
 p.bio {
     font-family:'Paragraph', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+div.horizontal {
+    display: flex;
+    flex-direction: horizontal;
+    
+}
+
+div.horizontal p {
+    font-size: 30px;
+    font-family: "Paragraph", sans-serif;
+    text-align: left;
+}
+
+.bigger-paragraph {
+    font-size: 40px;
+}
+
+div.horizontal img {
+    height: 90%;
+    width: auto;
 }
