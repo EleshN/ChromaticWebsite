@@ -1,0 +1,51 @@
+.outlined {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+div.socials-outer {
+    width: 90vw;
+    margin: 20px auto; /* center horizontally */
+    background-color: #00e5ff99;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+div.socials-outer div {
+    margin-bottom: 10px;
+}
+
+.button a {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px; /* top/bottom: 6px, left/right: 12px */
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+ul.socials{
+    display: block;
+    padding-left: 1.5%;
+    list-style-type: disc;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+ul.socials li {
+    display: list-item;
+    font-family:'Paragraph', sans-serif;
+    font-size: 20px;
+}
+
+ul.socials li.text,
+ul.socials li.button {
+    margin-left: 1%;
+}
+
+h2 {
+    margin-left: 5%;
+    font-family: 'Dramatic', sans-serif;
+}

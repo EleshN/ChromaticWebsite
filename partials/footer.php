@@ -1,6 +1,6 @@
-<div class = "footer">
+<div id = "footer" class = "footer">
     <a class = "standard" href="download.html">Download Now!</a>
-    <button class = "social" id="social-button">Get Connected!</button>
+    <button class = "social" id="social-button">Contact / Socials</button>
 </div>
 
 <picture class="footer voidmite">

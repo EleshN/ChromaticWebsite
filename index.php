@@ -26,7 +26,7 @@ $nav_cit_class = '';
 
     <?php include('partials/header.php'); ?>
 
-    <h2>Welcome to the world of Chromatic!</h2>
+    <h2 class = "standard" >Welcome to the world of Chromatic!</h2>
 
     <p class="blurb standard">
         Journey into the world of Chromatic - and become a part of it. 

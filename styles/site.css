@@ -16,7 +16,7 @@ h1 {
     font-family:'Dramatic', sans-serif;
 }
 
-h2 {
+h2.standard {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;

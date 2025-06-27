@@ -21,110 +21,108 @@
 
     <?php include('partials/header.php'); ?>
 
-    <h2>About</h2>
+    <h2 class = "standard" >About</h2>
+    
     <div class="about">
-    <figure class = "right">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/title.png" alt="" >
-    </figure>
-    <p class = "left standard">
-        <!-- Source: (original work) Noah Braun -->
-        Chromatic is a platformer where you can explore the vast world of the game in any order you want. It takes after games like Hollow Knight and Ori and the Blind Forest, guiding the player's abilities as their set of available powers continuously grows.</p>
+        <img src = "images/chroma-squad-2.png">
+        <p class="small-text">
+            Chromatic is a 2D platformer metroidvania, where the player journeys through various multicolored worlds and unlocks a unique colored transformation in each. 
+            Each transformation brings with it new ways of moving, fighting, and seeing the world around you.
+            It takes after modern games such as <i>Hollow Knight</i> and <i>Ori and the Blind Forest</i>.
+        </p>
     </div>
 
     <div class="about">
-    <figure class = "left">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/chroma-squad.png" alt="" >
-        <figcaption></figcaption>
-    </figure>
-    <p class = "right standard">
-        <!-- Source: (original work) Noah Braun -->
-        You adapt to the world as it changes around you, gaining new abilities. Pictured is each ability players can expect to see in game. Each transformation carries with it a new movement ability and a new attack, and can be found in a corresponding environment. Each transformation sees the player character adapting to the environment, gaining an appearance and abilities influenced by that environment's ecosystem and biology.
-    </p>
+        <img src = "images/screenshots/chromatic-ch1-intro.gif">
+        <p>
+            Enter the world of <i>Chromatic!</i>
+        </p>
     </div>
 
     <div class="about">
-    <p class = "standard">
-        <!-- Source: (original work) Noah Braun -->
-        The player can use these special powers using their light blue color. This color is obtained in the coral-like first area.
-    </p>
-
-        <div class="about">
-        <figure  class = "right">
-            <!-- Source: (original work) Noah Braun -->
-            <img src="images/bubble.png" alt="" >
-        </figure>
-        <p class = "left standard">
-            <!-- Source: (original work) Noah Braun -->
-            Shoot magical bubbles. These bubbles can damage enemies and even pick up small enemies and collectables. Be careful, though: bubbles will pop if they collide with anything that is not small enough to pick up!  </p>
-        </div>
-
-        <div class="about">
-        <figure class = "left">
-            <!-- Source: (original work) Noah Braun -->
-            <img src="images/float.png" alt="" >
-        </figure>
-        <p class = "right standard">
-            <!-- Source: (original work) Noah Braun -->
-            Float through the air. The player can blow a bubble in their head to float straight up from the ground. Upon finding ways to improve this power, it will later be possible for the player to move directionally while floating, allowing for increased movement capabilities.</p>
-        </div>
+        <img src = "images/screenshots/chromatic-ch1-jump.png">
+        <p>
+            Fall into tight and refreshing 2D platforming and combat.
+        </p>
     </div>
 
     <div class="about">
-    <figure  class = "right">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/plants.png" alt="" >
-    </figure>
-    <p class = "left standard">
-        <!-- Source: (original work) Noah Braun -->
-        Engage with the flora and fauna native to each environment. Here, you can see an aquatic creature native to the first area among the environment's local vegetation. Each environment has its own ecosystem and even it's own implementation of the evolutionary forces that flow through the entire world. In the first area, circular shapes and soft ground are more likely to grow.</p>
+        <img src = "images/screenshots/chromatic-ch1-bubbleatk.png">
+        <img src = "images/screenshots/chromatic-ch1-bubblemov.png">
+        <p>
+            Find creative uses for unique and exciting special abilities.
+        </p>
     </div>
 
     <div class="about">
-    <figure  class = "left">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/augs.png" alt="" >
-    </figure>
-    <p class = "right standard">
-        <!-- Source: (original work) Noah Braun -->
-        Customize your playsyle with over 50 equippable augmentations. Each augmentation can be attached to a part of your body, granting that body part special abilities. This means that, combined with the 8 different transformations the player can take, the player's body can take thousands of different forms! Which one will you choose?
-    </p>
+        <img src = "images/screenshots/chromatic-ch1-scene.png">
+        <p>
+            Explore lush, hand-pixeled environments.
+        </p>
     </div>
 
     <div class="about">
-    <figure  class = "right">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/npc.png" alt="" >
-    </figure>
-    <p class = "left standard">
-        <!-- Source: (original work) Noah Braun -->
-        Speak with other inhabitants of the world, whether they be natives or travelers like yourself. Friends, enemies, and everything in between await your company. Other beings will have all sorts of utility to the player. Whether they be amicable and give the player benefits, or antagonistic foes that challenge the player and give them valuable survival skills and experience, or empty vagabonds that give nothing but information of their existence. Nobody is quite sure where the world of chromatic came from or how it is developing, but everyone is interested in their own unique desires. </p>
+        <img src = "images/screenshots/chromatic-ch1-fight.png">
+        <p>
+            Face bizarre and mysterious foes.
+        </p>
     </div>
 
     <div class="about">
-    <figure  class = "left">
-        <!-- Source: (original work) Noah Braun -->
-        <img src="images/map.png" alt="" >
-    </figure>
-    <p class = "right standard">
-        <!-- Source: (original work) Noah Braun -->
-        Open up the world as you explore. With over seven unique biomes to explore, everyone will find something exciting, mysterious, or breathtaking to find in chromatic. The task of looking for these items, people, vistas, and moments will drive you through the world to forge your own meaning and experience.</p>
+        <img src = "images/screenshots/chromatic-ch1-journal.png">
+        <p>
+            Catalog the creatures you find, and build your own bestiary.
+        </p>
     </div>
 
-    <h2>About the Author</h2>
+    <div class="about">
+        <img src = "images/screenshots/chromatic-ch1-secret.png">
+        <p>
+            Discover collectables and secrets.
+        </p>
+    </div>
+
+    <div class="about">
+        <img src = "images/screenshots/chromatic-ch1-equipment.png">
+        <p>
+            Unlock upgrades and customize your play style.
+        </p>
+    </div>
+
+    <div class="about">
+        <img src = "images/screenshots/chromatic-ch1-friend.png">
+        <p>
+            Meet friends.
+        </p>
+    </div>
+
+    <div class="about">
+        <img src = "images/screenshots/chromatic-ch1-foe.png">
+        <p>
+            Meet foes.
+        </p>
+    </div>
+
+    <div class="about">
+        <img src = "images/screenshots/chromatic-ch1-power.png">
+        <p>
+            Traverse the world in new ways.
+        </p>
+    </div>
+
+    <h2 class = "standard" >About the Author</h2>
 
     <picture class="about">
         <!-- Source: (original work) Noah Braun -->
         <img src="images/biopic.jpg" alt = "">
     </picture>
 
-    <div class="about">
+    <div>
     <p class = "bio standard">
         <!-- Source: (original work) Noah Braun -->
-        Chromatic is developed solely by Noah Braun using the Unity engine. Noah has been developing the game outside of work and school since 2022, with chapter one releasing in December of 2024. 
+        Chromatic is developed solely by Noah Braun (Age 23) using the Unity engine. Noah has been developing the game outside of work and school since 2022, with chapter one releasing in December of 2024. 
         <br>The game features music by Alex Yore and some writing by Rudy Beer.
-        <br>Seeing that Chromatic is a side project, there is currently no planned release date for the whole game, though it is continuously being worked on fervently, and progress is only getting faster.
+        <br>Given that Chromatic is a side project, there is currently no planned release date for the whole game, though it is continuously being worked on fervently, and progress is only getting faster.
         <br>Noah is originally from Washington, D.C., and graduated Cornell University in May of 2024.
     </p>
     </div>

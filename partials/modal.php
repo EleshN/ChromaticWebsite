@@ -9,7 +9,7 @@
         </div>
 
         <div class = "horizontal">
-            <a class = "standard" href="https://discord.com/users/224669420411289600"><img src="images/chromadiscord.png" alt="discord link">Discord</a>
+            <a class = "standard" href="https://www.instagram.com/chromatic_game/"><img src="images/chromainsta.png" alt="discord link">Instagram</a>
             <a class = "standard" href="mailto:chromaticdeveloper@gmail.com"><img src="images/chromaemail.png" alt="">Email Me</a>
             <!--https://www.tutorialspoint.com/html/html_email_links.htm-->
         </div>
