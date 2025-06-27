@@ -1,72 +1,29 @@
-p {
-    text-align: center;
-    color: #000000;
-    background-color: #00e5ff;
-    padding: 5px;
-}
-
-div figure.right {
-    float: right;
-    display:table;
-    align-items:center;
-    text-align: left;
-}
-
-div figure.left {
-    float: left;
-    display:table;
-    align-items:center;
-    text-align: left;
-}
-
 div.about {
-    width: 800px;
-    max-width: 800px;
-    min-width: 400px;
+    width: 90%;
+    margin: 5% auto; /* center horizontally */
+    background-color: #00e5ff99;
     border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
     padding: 10px;
-    color: #000000;
-    background-color: #00e5ff;
-    font-size: medium;
-    font-family:'Dramatic', sans-serif;
-    overflow:auto;
-}
-
-div.about div {
-    max-width: 780px;
-    min-width: 400px;
-}
-
-figure {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
-    min-width: 200px;
-    padding: 5px;
-}
-
-figure img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
-    min-width: 200px;
-    width: 100%;
-    height: auto;
-
+    text-align: center;
 }
 
-picture.about:nth-of-type(2) {
+div.about p {
     display: block;
-    max-width: 200px;
-    min-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
+    font-family: "Dramatic", sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.about p.small-text {
+    font-size: 30px;
+}
+
+div.about img {
+    display: block;
+    width: 70%;
+    margin: 10px auto; /* center horizontally */
 }
 
 picture.about {
@@ -84,14 +41,6 @@ picture.about img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-p.right {
-    text-align: right;
-}
-
-p.left {
-    text-align: left;
 }
 
 p.bio {
