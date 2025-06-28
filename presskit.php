@@ -25,7 +25,7 @@
     <img class = "capsule" src="images/capsule-final.png" alt = "">
     <div class="presskit-horizontal">
         <div class = "presskit-left outlined">
-            <h2 class = "standard" >Factsheet</h2>
+            <h2 class = "standard limiter" >Factsheet</h2>
             <div class="side-margins">
                 <h3>Platform</h3>
                 <ul class="presskit">
@@ -35,7 +35,7 @@
                 <ul class="presskit">
                     <li class="button"><a href="https://x.com/chromatic_game" style="background-color: #000000" target="_blank">Twitter</a></li>
                     <li class="button"><a href="https://www.instagram.com/chromatic_game/" style="background-color: #FE16B5" target="_blank">Instagram</a></li>
-                    <li class="button"><a href="TODO" style="background-color: #000000; color: #00e5ff;">Devlog</a></li>
+                    <!-- <li class="button"><a href="TODO" style="background-color: #000000; color: #00e5ff;">Devlog</a></li> -->
                 </ul>
                 <h3>Website</h3>
                 <ul class="presskit">

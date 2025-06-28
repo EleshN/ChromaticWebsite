@@ -40,9 +40,10 @@
             This is because it is currently being worked on part-time, and is still in the relatively early stages of development.
             There are some future updates / demos planned beyond chapter one, but seeing as Chromatic is a non-linear game where many challenges can be attempted in branching order, it will not be releasing chapter-by-chapter.
             <br><br>
-            To stay updated with Chromatic's development, follow the devlog <a href = "TODO" target="_blank">here</a> or follow the game's <a href = "socialscontact.php">social media profiles here!</a>
+            To stay updated with Chromatic's development, follow the game's <a href = "socialscontact.php">social media profiles here!</a>
             <br>For more detailed information about Chromatic, take a look at our <a href = "presskit.php">press kit</a>.
         </p>
+        <!-- follow the devlog <a href = "TODO" target="_blank">here</a> or -->
     </div>
 
     <h2 class = "standard" >About the Author</h2>
