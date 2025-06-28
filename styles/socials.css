@@ -6,7 +6,7 @@
 div.socials-outer {
     width: 90vw;
     margin: 20px auto; /* center horizontally */
-    background-color: #00e5ff99;
+    background-color: #00e5ff99; /*https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4*/
     border-radius: 25px;
     padding: 10px;
 }
