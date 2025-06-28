@@ -1,3 +1,4 @@
+<!-- Source: Kyle Harms, Info 2300, Cornell University -->
 <?php
 
 require_once "includes/db.php";
